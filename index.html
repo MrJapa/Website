@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Japa Portfolio</title>
+        <title>Japa</title>
         <link rel="stylesheet" type="text/css" href="style.css" >
     </head>
     <body>
@@ -11,14 +11,32 @@
                 <li><a href="#" class="active">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Extra</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </header>
+    </body>
+    <body>
+        <style>
+            body {
+                background-image: url('images/fi1.jpg');
+                background-size:cover;
+                background-repeat: no-repeat;
+            }
+        </style>
         <section>
-            <img src="b1.png" id="wbback">
-            <h2 id="text">Japa</h2>
-            <img src="f1.png" id="wbfront">
-            <img src="w1.png" id="wbwater">
+            <h2 class="text">Japa</h2>
+            <img src="images/fi2.png" id="wbfront">
         </section>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+        </script>
+        <script>
+            $(window).scroll(function(){
+                $(".text").css("opacity", 1 - $(window).scrollTop() / 400)
+            });
+        </script>
+        <div>
+            <img src="images/Japa.jpg" id="avatar" alt="Japa">
+
+        </div>
     </body>
 </html>
