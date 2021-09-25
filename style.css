@@ -88,9 +88,11 @@ section img#wbwater
 
 img#avatar
 {
+    position: relative;
     border-radius: 50%;
     z-index: 6;
-    
+    left: 125px;
+    top: -100px;
 }
 
 .text
@@ -104,16 +106,58 @@ img#avatar
     opacity: 1;
 }
 
+.name
+{
+    color:#fff;
+    white-space: nowrap;
+    font-size: 2.5vw;
+    z-index: 7;
+    position: relative;
+    left: 50px;
+    top: -100px;
+}
+
+.infotext
+{
+    color: #fff;
+    white-space: nowrap;
+    font-size: 0.7vw;
+    z-index: 7;
+    position: relative;
+    left: 50px;
+    top: -100px;
+}
+
+.projects
+{
+    color:#fff;
+    white-space: nowrap;
+    font-size: 2.5vw;
+    z-index: 7;
+    position: relative;
+    top: -100px;
+    left: 375px;
+}
+
 .column
 {
     float: left;
-    z-index: 5;
+    padding: 10px;
 }
 
-.column.side {
+.left
+{
     width: 25%;
 }
 
-.column.middle {
-    width: 50%;
+.right
+{
+    width: 75%;
+}
+
+.row::after
+{
+    content: "";
+    display: table;
+    clear: both;
 }
