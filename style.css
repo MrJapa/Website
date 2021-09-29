@@ -113,7 +113,7 @@ img#avatar
     font-size: 2.5vw;
     z-index: 7;
     position: relative;
-    left: 50px;
+    left: 60px;
     top: -100px;
 }
 
@@ -124,8 +124,8 @@ img#avatar
     font-size: 0.7vw;
     z-index: 7;
     position: relative;
-    left: 50px;
-    top: -100px;
+    top: 0px;
+    left: -480px;
 }
 
 .projects
@@ -136,35 +136,7 @@ img#avatar
     z-index: 7;
     position: relative;
     top: -100px;
-    left: 440px;
-}
-
-.column
-{
-    float: left;
-    padding: 10px;
-}
-
-.left
-{
-    width: 25%;
-}
-
-.middle
-{
-    width: 37.5%;
-}
-
-.right
-{
-    width: 37.5%;
-}
-
-.row::after
-{
-    content: "";
-    display: table;
-    clear: both;
+    left: 540px;
 }
 
 .projectinfo
@@ -174,40 +146,30 @@ img#avatar
     font-size: 1.5vw;
     z-index: 7;
     position: relative;
-
+    top: -50px;
 }
 
-.innercolumn
+.left
 {
-    float: left;
-    padding: 10px;
+    left: 580px;
 }
 
-.innerleft
-{
-    width: 33.3%;
-}
-
-.innermiddle
-{
-    width: 33.3%;
-}
-
-.innerright
-{
-    width: 33.3%;
-}
-
-.ERPImage
+.cvimg
 {
     position: relative;
-    z-index: 7;
-    right: -1080px;
+    left: -400px;
 }
 
-.DCImage
+.japainvimg
 {
     position: relative;
-    z-index: 7;
-    right: -480;
+    left: -125px;
+}
+
+.standard
+{
+    color: #fff;
+    position: relative;
+    left: -350px;
+    text-align: center;
 }
