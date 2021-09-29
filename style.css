@@ -136,7 +136,7 @@ img#avatar
     z-index: 7;
     position: relative;
     top: -100px;
-    left: 375px;
+    left: 440px;
 }
 
 .column
@@ -150,9 +150,14 @@ img#avatar
     width: 25%;
 }
 
+.middle
+{
+    width: 37.5%;
+}
+
 .right
 {
-    width: 75%;
+    width: 37.5%;
 }
 
 .row::after
@@ -160,4 +165,49 @@ img#avatar
     content: "";
     display: table;
     clear: both;
+}
+
+.projectinfo
+{
+    color: #fff;
+    white-space: nowrap;
+    font-size: 1.5vw;
+    z-index: 7;
+    position: relative;
+
+}
+
+.innercolumn
+{
+    float: left;
+    padding: 10px;
+}
+
+.innerleft
+{
+    width: 33.3%;
+}
+
+.innermiddle
+{
+    width: 33.3%;
+}
+
+.innerright
+{
+    width: 33.3%;
+}
+
+.ERPImage
+{
+    position: relative;
+    z-index: 7;
+    right: -1080px;
+}
+
+.DCImage
+{
+    position: relative;
+    z-index: 7;
+    right: -480;
 }
