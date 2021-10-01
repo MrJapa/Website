@@ -21,10 +21,10 @@ header
 }
 header .logo
 {
-    color: #fff;
+    -webkit-text-stroke: 0.5px white;
     font-weight: 700;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 3em;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -43,15 +43,16 @@ header ul li a
 {
     text-decoration: none;
     padding: 6px 15px;
-    color: #fff;
+    color: #50b9e6;
     border-radius: 20px;
 }
 header ul li a:hover,
 header ul li a.active
 {
-    background: #fff;
-    color: #5d08a3;
+    background: #2b2b2b;
+    color:#50b9e6;
 }
+
 section
 {
     position: relative;
@@ -101,7 +102,7 @@ img#avatar
     top: 100px;
     color: #fff;
     white-space: nowrap;
-    font-size: 8.5vw;
+    font-size: 7.5vw;
     z-index: 2;
     opacity: 1;
 }

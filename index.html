@@ -6,11 +6,16 @@
     </head>
     <body>
         <header>
-            <a href="#" class="logo">Japa</a>
+            <a>
+                <span class="logo" style="color: #50b9e6;">J</span>
+                <span class="logo" style="color: #50b9e6;">A</span>
+                <span class="logo" style="color: #2b2b2b">P</span>
+                <span class="logo" style="color: #2b2b2b">A</span>
+            </a>
             <ul>
                 <li><a href="#" class="active">Home</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="test.html">Extra</a></li>
+                <li><a href="projects.html">Projects</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </header>
@@ -18,14 +23,17 @@
     <body>
         <style>
             body {
-                background-image: url('images/fi1.jpg');
-                background-size:cover;
-                background-repeat: no-repeat;
+                background-image: url("images/conn.jpg");   
+                background-repeat:unset;
             }
         </style>
         <section>
-            <h2 class="text">Japa</h2>
-            <img src="images/fi2.png" id="wbfront">
+            <h2 class="text">
+                <span class="logo" style="color: #50b9e6;">J</span>
+                <span class="logo" style="color: #50b9e6;">A</span>
+                <span class="logo" style="color: #2b2b2b">P</span>
+                <span class="logo" style="color: #2b2b2b">A</span>
+            </h2>
         </section>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
         </script>
@@ -34,68 +42,5 @@
                 $(".text").css("opacity", 1 - $(window).scrollTop() / 400)
             });
         </script>
-        <div>
-            <img src="images/Japa.jpg" id="avatar" alt="Japa">
-        </div>
-        <div style="float: left; margin: 10px;">
-            <h2 class="name">
-                Jacob Japa
-            </h2>
-        </div>
-        <div style="float: left; margin: 10px;">
-            <h2 class="projects">
-                Projects
-            </h2>
-        </div>
-        <div>
-            <h2 class="infotext">
-                Computer Technician w. speciality in programming
-            </h2>
-        </div>
-        <div>
-            <h2 class="infotext">
-                IT-Supporter at Blue World Technologies
-            </h2>
-        </div>
-        <div>
-            <h2 class="infotext">
-                Programming Enthusiast
-            </h2>
-        </div>
-        <div style="float: left;">
-            <h2 class="projectinfo">
-                OpenCV
-            </h2>
-        </div>
-        <div style="float: left;">
-            <h2 class="projectinfo left">
-                JapaINV
-            </h2>
-        </div>
-        <img src="images/OPENCV.png" alt="OpenCV" class="cvimg">
-        <img src="images/JapaINV.png" alt="JapaINV" class="japainvimg">
-        <div>
-            <p class="standard">
-                OpenCV (Open Source Computer Vision Library) is a library of
-            </p>
-            <p class="standard">
-                programming functions mainly aimed at real-time computer vision.
-            </p>
-            <p class="standard">
-                Originally developed by Intel, it was later supported 
-            </p>
-            <p class="standard">
-                by Willow Garage then Itseez (which was later acquired by Intel).
-            </p>
-            <p class="standard">
-                The library is cross-platform and free for use
-            </p>
-            <p class="standard">
-                under the open-source Apache 2 License.
-            </p>
-            <p class="standard">
-                Starting with 2011, OpenCV features GPU acceleration for real-time operations.
-            </p>
-        </div>
     </body>
 </html>
