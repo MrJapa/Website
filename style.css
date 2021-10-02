@@ -53,6 +53,20 @@ header ul li a.active
     color:#50b9e6;
 }
 
+.strokeblue
+{
+    color: #50b9e6;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #2b2b2b;
+}
+
+.strokeblack
+{
+    color: #2b2b2b;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #50b9e6;
+}
+
 section
 {
     position: relative;
