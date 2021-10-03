@@ -43,29 +43,31 @@ header ul li a
 {
     text-decoration: none;
     padding: 6px 15px;
-    color: #50b9e6;
+    color: #e87966;
     border-radius: 20px;
 }
+
 header ul li a:hover,
 header ul li a.active
 {
     background: #2b2b2b;
-    color:#50b9e6;
-}
-
-.strokeblue
-{
-    color: #50b9e6;
-    -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: #2b2b2b;
+    color:#e87966;
 }
 
 .strokeblack
 {
+    color: #e87966;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #2b2b2b;
+}
+
+.strokeorange
+{
     color: #2b2b2b;
     -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: #50b9e6;
+    -webkit-text-stroke-color: #e87966;
 }
+
 
 section
 {
@@ -116,7 +118,7 @@ img#avatar
     top: 100px;
     color: #fff;
     white-space: nowrap;
-    font-size: 7.5vw;
+    font-size: 6.5vw;
     z-index: 2;
     opacity: 1;
 }
