@@ -190,3 +190,17 @@ img#avatar
     left: -350px;
     text-align: center;
 }
+
+.column
+{
+    float: left;
+    width: 33.3%;
+}
+
+.row::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
