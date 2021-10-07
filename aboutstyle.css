@@ -221,7 +221,7 @@ img#avatar
 }
 
 .container .card:hover .face.face1{
-    background: #00aee7;
+    background: #e6b101;
     transform: translateY(0);
 }
 
